@@ -16,20 +16,20 @@ body
 
 main
 {
-background: hsl(244, 38%, 16%);
-max-width: 416px;
-border-radius: 1rem;
+    background: hsl(244, 38%, 16%);
+    max-width: 100%;
+    border-radius: 1rem;
 }
 
 main section
 {
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-padding: 0 2rem;
-height: 100%;
-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2rem;
+    height: 100%;
+    width: 100%;
 }
 
 main section h1
@@ -40,14 +40,14 @@ main section h1
     text-align: left;
 }
 
-main section h2
+main section span
 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 19%, 87%);
 }
 
-main section p
+main section div
 {
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -57,14 +57,13 @@ main section p
 
 main img
 {
-width: 100%;
-height: 100vh;
+    width: 100%;
+    height: 100vh;
 }
 
 main .estatisticas
 {
-display: flex;
-align-items: center;
-
+    display: flex;
+    align-items: center;
 
 }
